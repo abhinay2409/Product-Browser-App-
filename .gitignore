@@ -31,6 +31,7 @@ captures/
 .idea/shelf
 .idea/modules.xml
 .idea/navEditor.xml
+.idea/deviceManager.xml
 
 # Keystore files
 *.jks
