@@ -1,4 +1,5 @@
 rootProject.name = "ProductBrowser"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
     repositories {
@@ -9,8 +10,8 @@ pluginManagement {
                 includeGroupAndSubgroups("com.google")
             }
         }
-        mavenCentral()
         gradlePluginPortal()
+        mavenCentral()
     }
 }
 
@@ -27,5 +28,4 @@ dependencyResolutionManagement {
     }
 }
 
-include(":androidApp")
-include(":shared")
+include(":composeApp")
