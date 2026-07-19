@@ -23,7 +23,7 @@ interface ProductRepository {
 
     suspend fun getCategories(): Result<List<Category>>
 
-    suspend fun getProductsByCategory(categorySlug: String): Result<List<String>>
+    suspend fun getProductsByCategory(categorySlug: String): Result<List<Product>>
 
     companion object {
         const val DEFAULT_PAGE_SIZE = 100
