@@ -36,6 +36,7 @@ captures/
 .idea/appInsightsSettings.xml
 .idea/compiler.xml
 .idea/deploymentTargetSelector.xml
+.idea/gradle.xml
 
 # Keystore files
 *.jks
