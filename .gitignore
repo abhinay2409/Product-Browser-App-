@@ -32,6 +32,10 @@ captures/
 .idea/modules.xml
 .idea/navEditor.xml
 .idea/deviceManager.xml
+.idea/.name
+.idea/appInsightsSettings.xml
+.idea/compiler.xml
+.idea/deploymentTargetSelector.xml
 
 # Keystore files
 *.jks
