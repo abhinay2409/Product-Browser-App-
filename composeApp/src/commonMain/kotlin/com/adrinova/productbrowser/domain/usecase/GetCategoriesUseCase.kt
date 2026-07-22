@@ -7,6 +7,6 @@ import com.adrinova.productbrowser.domain.repository.ProductRepository
  * Created by Abhinay on 20/07/26.
  */
 /** Business use case: list all product categories (used for filtering). */
-private class GetCategoriesUseCase(private val repository: ProductRepository) {
+class GetCategoriesUseCase(private val repository: ProductRepository) {
     suspend operator fun invoke(): Result<List<Category>> = repository.getCategories()
 }
