@@ -23,7 +23,7 @@ object HttpClientFactory {
 
     fun create(): HttpClient = HttpClient { configure() }
 
-    fun create(engine: HttpClientEngine): HttpClient = HttpClient { configure() }
+    fun create(engine: HttpClientEngine): HttpClient = HttpClient(engine) { configure() }
 
     private fun HttpClientConfig<*>.configure() {
         expectSuccess = true // non-2xx responses throw ResponseException
